@@ -1,5 +1,5 @@
 deploy:
   provider: script
-  script: bash ./update.sh
+  script: bash scripts/update.sh
   on:
     branch: master
